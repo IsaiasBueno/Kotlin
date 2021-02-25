@@ -4,17 +4,13 @@
 //Material de Estudos criado por Isaias Bueno
 //e-mail:izaias.bueno@gmail.com
 
-//Github: https://github.com/IsaiasBueno
+//Github:
 //Linkedin:
-
 
 fun main (){
 val nome: String? = null
 
-if (nome == null) {
+nome?.let {
     println(null)
-} else {
-    println(nome)
+} ?: println(nome)
 }
-}
-

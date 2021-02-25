@@ -1,4 +1,4 @@
-//Verifica se nome é nulo e imprime null ou nome
+//Função main sem parâmetro
 //Teste o código em: https://play.kotlinlang.org/
 
 //Material de Estudos criado por Isaias Bueno
@@ -7,14 +7,6 @@
 //Github: https://github.com/IsaiasBueno
 //Linkedin:
 
-
-fun main (){
-val nome: String? = null
-
-if (nome == null) {
-    println(null)
-} else {
-    println(nome)
-}
-}
-
+fun main() {
+      println("Olá!Mundo!")
+  }
